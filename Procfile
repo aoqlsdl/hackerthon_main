@@ -1,3 +1,3 @@
-web: gunicorn HACKERTHON-FINAL wsgi --log-file -
+web: gunicorn Example wsgi --log-file -
 
 
