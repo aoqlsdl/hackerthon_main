@@ -8,7 +8,7 @@ class CustomUser(AbstractUser):
     GENDERS = (
         ('M', '남성'),
         ('F', '여성')
-    )
+    ) 
     gender = models.CharField(verbose_name='성별', max_length=1, choices=GENDERS, default = '')
 
     JOBS = (

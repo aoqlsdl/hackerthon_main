@@ -52,7 +52,7 @@ class Comment(models.Model):
         return self.comment_text
 
 
-# 게시판
+# 게시판 
 
 class Post(models.Model):
     postname = models.CharField(max_length=50)

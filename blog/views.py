@@ -1,4 +1,4 @@
-from elections.models import Candidate
+# from elections.models import Candidate
 from django.shortcuts import render, get_object_or_404, redirect
 from django.utils import timezone
 from .models import Blog,  HashTag, Comment, Post
